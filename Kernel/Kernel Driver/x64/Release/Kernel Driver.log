@@ -1,0 +1,9 @@
+﻿  Building 'Kernel' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Core.cpp
+  IO Header.cpp
+  P2V.cpp
+  Main.cpp
+  Utils.cpp
+  LINK : указан параметр /LTCG, но не требуется создание кода; удалите /LTCG из командной строки компоновки для повышения производительности компоновщика
+  Kernel Driver.vcxproj -> C:\Users\Name\Desktop\HackDayZ\Kernel\x64\Release\Kernel.sys
+  Driver is 'Universal'.

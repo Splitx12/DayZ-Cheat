@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{8b9e0d18-ba38-4af4-a179-565bab509969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Hack\Driver">
+      <UniqueIdentifier>{20ebb291-347e-490b-9ce8-e8294242a68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Overlay">
+      <UniqueIdentifier>{6a0f3890-ce7b-4de5-a371-de31a9449456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Common">
+      <UniqueIdentifier>{83bed746-e61c-4212-90ba-44ffdc5a5e52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Overlay\Drawing">
+      <UniqueIdentifier>{0a520a09-0df2-4915-a1fa-eb404d75c111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Value">
+      <UniqueIdentifier>{494725f3-4866-430f-bd4d-e712920a6c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Crypt">
+      <UniqueIdentifier>{0b680c55-8cd4-4a8a-8214-16b3d59cebb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\SDK">
+      <UniqueIdentifier>{0e08bdbf-5f3a-4d0e-ab8d-45bbc81f6904}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Value.cpp">
+      <Filter>Hack\Value</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>Hack\Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay.cpp">
+      <Filter>Hack\Overlay\Drawing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Overlay.h">
+      <Filter>Hack\Overlay\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Hack\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Hack\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Value.h">
+      <Filter>Hack\Value</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>Hack\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.hpp">
+      <Filter>Hack\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="imports.hpp">
+      <Filter>Hack\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Hack\Overlay\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skCrypt.h">
+      <Filter>Hack\Crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Hack\Crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Hack\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="offset.h">
+      <Filter>Hack\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Hack\Overlay\Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectOverlay.h">
+      <Filter>Hack\Overlay\Drawing</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
